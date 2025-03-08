@@ -9,34 +9,20 @@
 ## 🚀 Features
 
 ### 💾 Save a bookmark
-Save a web bookmark using
-```sh
-mark <bookmark_name> <http_url>
-```
-to save a bookmark!
+Save a web bookmark using `mark <bookmark_name> <http_url>` to save a bookmark!
 
 Example usage:
 ```sh
 mark github https://github.com
-```
-will output:
-```sh
 Bookmark 'github' saved successfully!
 ```
 
 ### 📍 Open a saved bookmark
-Open a saved bookmark in your web browser using
-```sh
-mark <bookmark_name>
-```
-This will open your saved bookmark in your web browser!
+Open a saved bookmark in your web browser using `mark <bookmark_name>`. This will open your saved bookmark in your web browser!
 
 Example usage:
 ```sh
 mark github
-```
-will output:
-```sh
 Opening github...
 ```
 and will open the "github" bookmark in the web browser.
