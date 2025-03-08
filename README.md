@@ -1,7 +1,7 @@
 # Mark
 
-[![Latest Release](https://img.shields.io/github/v/release/narlock/TamoStudy)](https://github.com/narlock/mark/releases/)
-[![Latest Commit](https://img.shields.io/github/last-commit/narlock/TamoStudy)](https://github.com/narlock/mark/commits/main)
+[![Latest Release](https://img.shields.io/github/v/release/narlock/mark)](https://github.com/narlock/mark/releases/)
+[![Latest Commit](https://img.shields.io/github/last-commit/narlock/mark)](https://github.com/narlock/mark/commits/main)
 [![Discord](https://discordapp.com/api/guilds/821757961830793236/widget.png?style=shield)](https://discord.gg/eEbEYbXaNS)
 
 `mark` is a free, open source terminal-based website bookmark manager. Intended to help enhance a terminal-user's workflow.
