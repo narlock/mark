@@ -58,6 +58,10 @@ Installing Mark Bookmark Manager...
 
 You have successfully installed `mark` to your machine. The contents of the installation were moved to the `$HOME/Documents/narlock/mark` directory, and a wrapper has been created inside of the `/usr/local/bin` directory to allow the `mark` command to be executed in your terminal.
 
+### 🗑️ Uninstalling
+
+On Linux / macOS systems, simply run the `uninstall.sh` script. You may need to grant execute permissions similar to the install script.
+
 ## 🗺️ Roadmap
 The following section contains a list of features that will be implemented to enhance `mark`.
 1. Allow the user to remove a bookmark from `mark` using `mark -r <bookmark_name>`. This will delete the bookmark entry from the config.txt file.
