@@ -53,4 +53,7 @@ The following section contains a list of features that will be implemented to en
 1. Allow the user to remove a bookmark from `mark` using `mark -r <bookmark_name>`. This will delete the bookmark entry from the config.txt file.
 2. Allow bookmark "groups" to be created. A bookmark can be a part or not a part of a group. The user will be able to open all of the bookmarks in a group. The user will also be able to view all of the bookmarks in a group and remove bookmarks from a group.
 3. Create a Windows installation option.
-4. Implement a bookmark syncing feature. This will allow users of `mark` to sync bookmarks based on a "source of truth" system. This will most likely be done through LAN system, where a single system has ssh enabled. Systems that want to sync with that system can use some command to sync and the sync process will begin. Bookmarks that exist on synced devices will be saved to the source system and bookmarks that do not exist on the source system will be added from user systems.
+4. Create an import/export feature using a standard web browser file.
+    - Importing could look like `mark -import <html_bookmarks>` and then add the bookmarks from the file.
+    - Exporting could export the bookmarks to an html file: `mark -export`.
+5. Implement a bookmark syncing feature. This will allow users of `mark` to sync bookmarks based on a "source of truth" system. This will most likely be done through LAN system, where a single system has ssh enabled. Systems that want to sync with that system can use some command to sync and the sync process will begin. Bookmarks that exist on synced devices will be saved to the source system and bookmarks that do not exist on the source system will be added from user systems.
